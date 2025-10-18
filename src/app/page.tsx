@@ -34,7 +34,7 @@ export default function Page() {
       defaultTextAnimation="reveal-blur"
       borderRadius="pill"
     >
-      <div id="nav" data-section="nav">
+      <div id="nav" data-section="nav" className="scroll-mt-24">
         <NavbarStyleMinimal brandName="My SaaS" />
       </div>
       <div id="hero" data-section="hero" className="scroll-mt-24">
@@ -88,32 +88,28 @@ export default function Page() {
                 name: "Sarah Johnson",
                 role: "CEO",
                 testimonial: "Outstanding support and fantastic features.",
-                imageSrc: assetMap.find(a => a.id === "testimonial-1")?.url || "/public/images/placeholder.webp",
-                alt: assetMap.find(a => a.id === "testimonial-1")?.alt
+                imageSrc: assetMap.find(a => a.id === "testimonial-1")?.url || "/public/images/placeholder.webp"
               },
               {
                 id: "2",
                 name: "Michael Chen",
                 role: "CTO",
                 testimonial: "The user interface is intuitive and powerful.",
-                imageSrc: assetMap.find(a => a.id === "testimonial-2")?.url || "/public/images/placeholder.webp",
-                alt: assetMap.find(a => a.id === "testimonial-2")?.alt
+                imageSrc: assetMap.find(a => a.id === "testimonial-2")?.url || "/public/images/placeholder.webp"
               },
               {
                 id: "3",
                 name: "Emily Rodriguez",
                 role: "Marketing Director",
                 testimonial: "A must-have tool for modern businesses.",
-                imageSrc: assetMap.find(a => a.id === "testimonial-3")?.url || "/public/images/placeholder.webp",
-                alt: assetMap.find(a => a.id === "testimonial-3")?.alt
+                imageSrc: assetMap.find(a => a.id === "testimonial-3")?.url || "/public/images/placeholder.webp"
               },
               {
                 id: "4",
                 name: "David Kim",
                 role: "Product Manager",
                 testimonial: "Simplified our process significantly.",
-                imageSrc: assetMap.find(a => a.id === "testimonial-4")?.url || "/public/images/placeholder.webp",
-                alt: assetMap.find(a => a.id === "testimonial-4")?.alt
+                imageSrc: assetMap.find(a => a.id === "testimonial-4")?.url || "/public/images/placeholder.webp"
               }
             ]}
           />
